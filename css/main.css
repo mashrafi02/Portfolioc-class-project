@@ -1,0 +1,756 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+ol,ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/* ######################################### navbar start here ######################################### */
+
+.navbar-toggler{
+    border: none;
+}
+
+#navbar{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #F9F9FC;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+nav .navbar-nav{
+    column-gap: 40px;
+}
+
+nav .navbar-nav li a{
+    text-transform: uppercase;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    transition: all linear 0.3s;
+}
+
+nav .navbar-nav li a:hover{
+    color: #5E3BEE
+}
+
+nav .collapse button{
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    padding: 10px 22px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all linear 0.1s;
+}
+
+nav .collapse button:hover{
+    background: #4d2ccf;
+}
+
+nav .collapse button i{
+    width: 16px;
+    height: 16px;
+}
+
+/* ######################################### navbar end here ######################################### */
+
+
+/* ######################################### banner start here ######################################### */
+#banner{
+    padding-top: 116px;
+    background-color: #F9F9FC;
+    padding-bottom: 44.4px;
+}
+
+#banner .banner-left span{
+    display: inline-block;
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 32px;
+}
+
+#banner .banner-left h1{
+    color: #333;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 32px;
+}
+
+#banner .banner-left .banner-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+}
+
+#banner .banner-left .banner-btn button{
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    padding: 23.5px 39px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all linear 0.1s;
+}
+
+#banner .banner-left .banner-btn button:hover{
+    background: #4d2ccf;
+}
+
+#banner .banner-left .banner-btn button i{
+    font-size: 20px;
+}
+
+#banner .banner-left .banner-btn a{
+    display: inline-block;
+    color: #333;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+#banner .banner-left .banner-btn a img{
+    margin-right: 10px;
+}
+
+#banner .banner-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ######################################### banner end here ######################################### */
+
+
+/* ######################################### counter start here ######################################### */
+#counter{
+    margin-top: 91px;
+    margin-bottom: 79px;
+}
+
+#counter .counter-item h3{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+#counter .counter-item p{
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+/* ######################################### counter end here ######################################### */
+
+
+/* ######################################### service start here ######################################### */
+#service{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#service .heading{
+    margin-bottom: 64px;
+}
+
+#service .heading h4{
+    color: #5E3BEE;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+#service .heading h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    margin-bottom: 13px;
+}
+
+#service .heading p{
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+#service .flex-div{
+    justify-content: space-between;
+}
+
+#service .item{
+    text-align: center;
+    padding: 51.5px 34.5px;
+    border-radius: 24px;
+    background: #F9F9FC;
+    box-shadow: 40px 40px 80px 0px rgba(0, 0, 0, 0.10);
+}
+
+#service .item i{
+    font-size: 36px;
+    color: #5E3BEE;
+    margin-bottom: 43px;
+}
+
+#service .item h3{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 9px;
+}
+
+#service .item p{
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+/* ######################################### service end here ######################################### */
+
+
+/* ######################################### navbar start here ######################################### */
+#graphic{
+    padding-top: 109px;
+    padding-bottom: 113px;
+    background: #F9F9FC;
+}
+
+#graphic .details h4{
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+}
+
+#graphic .details h2{
+    max-width: 482px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 15px;
+}
+
+#graphic .details p{
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+#graphic .details button{
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    padding: 23.5px 39px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+#graphic .details button i{
+    font-size: 20px;
+}
+/* ######################################### navbar end here ######################################### */
+
+
+/* ######################################### companies start here ######################################### */
+#companies{
+    margin-top: 129px;
+    margin-bottom: 117px;
+}
+/* ######################################### companies end here ######################################### */
+
+
+/* ######################################### portfolio start here ######################################### */
+#portfolio{
+    padding-top: 58px;
+    padding-bottom: 68px;
+}
+
+#portfolio .row{
+    justify-content: space-between;
+}
+
+#portfolio .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 51px;
+}
+
+#portfolio .heading h4{
+    color: #5E3BEE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 11px;
+}
+
+#portfolio .heading h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.22px;
+}
+
+#portfolio .heading p{
+    max-width: 557px;
+    color: rgba(18, 18, 18, 0.70);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+#portfolio .image{
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 45px;
+}
+
+#portfolio .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+}
+
+#portfolio .image .details{
+    padding-left: 47px;
+    padding-bottom: 46px;
+}
+
+#portfolio .image .details h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+#portfolio .image .details span{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+/* ######################################### portfolio end here ######################################### */
+
+
+/* ######################################### testimoni start here ######################################### */
+#testimoni{
+    background: #F9F9FC;
+    padding-top: 147px;
+    padding-bottom: 136px;
+}
+
+#testimoni .heading{
+    position: relative;
+    margin-bottom: 57px;
+}
+
+#testimoni .heading img{
+    position: absolute;
+    top: -35px;
+    left: 555px;
+    z-index: 0;
+}
+
+#testimoni .heading h4{
+    color: #5E3BEE;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+#testimoni .heading h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    margin-bottom: 13px;
+}
+
+#testimoni .heading p{
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgba(18, 18, 18, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+#testimoni .row{
+    justify-content: space-between;
+}
+
+#testimoni .item{
+    border-radius: 24px;
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.10);
+    padding-right: 39px;
+    padding-left: 40px;
+    padding-top: 44px;
+    padding-bottom: 53px;
+}
+
+#testimoni .item .rate{
+    margin-bottom: 32px;
+}
+
+#testimoni .item p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 27px;
+}
+
+#testimoni .item .profile-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#testimoni .item .profile-details i{
+    font-size: 45px;
+    color: #5E3BEE;
+}
+
+#testimoni .item .profile-details .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 17px;
+}
+
+#testimoni .item .profile-details .profile h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+#testimoni .item .profile-details .profile span{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+/* ######################################### navbar end here ######################################### */
+
+
+/* ######################################### contact start here ######################################### */
+#contact{
+    margin-bottom: 132px;
+}
+
+#contact .contact-wrapper{
+    background: url(../images/c-background.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 126px;
+    padding-top: 112px;
+    border-radius: 24px;
+}
+
+#contact .contact-wrapper h2{
+    margin: 0 auto;
+    max-width: 628px;
+    color: #333;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0.25px;
+    margin-bottom: 19px;
+}
+
+#contact .contact-wrapper button{
+    margin: 0 auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    padding: 23.5px 39px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+#contact .contact-wrapper button i{
+    font-size: 20px;
+}
+/* ######################################### contact end here ######################################### */
+
+
+/* ######################################### footer start here ######################################### */
+#footer{
+    background: url(../images/footer.png) no-repeat center;
+    background-size: cover;
+    margin: 0px 52.5px;
+    padding-top: 112px;
+    padding-left: 167px;
+    padding-right: 168px;
+    padding-bottom: 24px;
+    border-top-left-radius: 24px ;
+    border-top-right-radius: 24px ;
+}
+
+.footer-wrapper .row{
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.footer-wrapper .details img{
+    margin-bottom: 24px;
+}
+
+.footer-wrapper .details p{
+    max-width: 374px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+.footer-wrapper .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 23px;
+}
+
+.footer-wrapper .item i{
+    font-size: 20px;
+}
+
+.footer-wrapper .links{
+    margin-top: 3px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 24px;
+}
+
+.footer-wrapper .links i{
+    font-size: 24px;
+    color: #FFF;
+}
+
+.footer-wrapper .line{
+    height: 1px;
+    background: #404040;
+    margin-bottom: 48px;
+}
+
+.footer-wrapper .footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper .footer-nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 47px;
+}
+
+.footer-wrapper .footer-nav ul li a{
+    display: inline-block;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer-wrapper .footer-nav ul li{
+    margin-bottom: 0;
+}
+
+.footer-wrapper .footer-nav span{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+}
+
+.footer-wrapper .row {
+    margin-bottom: 0px;
+}
+/* ######################################### footer end here ######################################### */
