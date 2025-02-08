@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 9999999999;
 }
 
 nav .navbar-nav{
@@ -177,7 +177,7 @@ nav .collapse button i{
 
 /* ######################################### counter start here ######################################### */
 #counter{
-    margin-top: 91px;
+    margin-top: 100px;
     margin-bottom: 79px;
 }
 
@@ -209,7 +209,7 @@ nav .collapse button i{
 /* ######################################### service start here ######################################### */
 #service{
     padding-top: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 96px;
 }
 
 #service .heading{
@@ -296,8 +296,9 @@ nav .collapse button i{
 /* ######################################### service end here ######################################### */
 
 
-/* ######################################### navbar start here ######################################### */
+/* ######################################### graphic start here ######################################### */
 #graphic{
+    position: relative;
     padding-top: 109px;
     padding-bottom: 113px;
     background: #F9F9FC;
@@ -357,7 +358,19 @@ nav .collapse button i{
 #graphic .details button i{
     font-size: 20px;
 }
-/* ######################################### navbar end here ######################################### */
+
+#graphic .details .mask{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#graphic .thumb .shape {
+    position: absolute;
+    top: 77px;
+    right: 0px;
+}
+/* ######################################### graphic end here ######################################### */
 
 
 /* ######################################### companies start here ######################################### */
@@ -370,6 +383,7 @@ nav .collapse button i{
 
 /* ######################################### portfolio start here ######################################### */
 #portfolio{
+    position: relative;
     padding-top: 58px;
     padding-bottom: 68px;
 }
@@ -394,6 +408,13 @@ nav .collapse button i{
     line-height: 26px;
     letter-spacing: 1.5px;
     margin-bottom: 11px;
+}
+
+#portfolio .heading h4 img {
+    position: absolute;
+    left: 114px;
+    top: 18px;
+    z-index: -1;
 }
 
 #portfolio .heading h2{
@@ -465,7 +486,8 @@ nav .collapse button i{
 #testimoni{
     background: #F9F9FC;
     padding-top: 147px;
-    padding-bottom: 136px;
+    padding-bottom: 104px;
+    margin-bottom: 360px;
 }
 
 #testimoni .heading{
@@ -475,8 +497,8 @@ nav .collapse button i{
 
 #testimoni .heading img{
     position: absolute;
-    top: -35px;
-    left: 555px;
+    top: -34px;
+    left: 610px;
     z-index: 0;
 }
 
@@ -519,8 +541,12 @@ nav .collapse button i{
     letter-spacing: 0.5px;
 }
 
-#testimoni .row{
-    justify-content: space-between;
+#testimoni .surface{
+    position: relative;
+}
+
+#testimoni .surface .comments{
+    position: absolute;
 }
 
 #testimoni .item{
